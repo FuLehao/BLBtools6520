@@ -1,0 +1,39 @@
+# Ignore files related to RStudio project
+^.*\.Rproj$
+^\.Rproj\.user$
+
+# Ignore R history files
+.Rhistory
+
+# Ignore R data files
+.RData
+
+# Ignore compiled shared objects (generated during package compilation)
+*.so
+
+# Ignore compiled dynamic libraries for Windows
+*.dll
+
+# Ignore compiled dynamic libraries for macOS
+*.dylib
+
+# Ignore package build artifacts
+*.tar.gz
+
+# Ignore temporary files created during package build and checks
+.Rbuildignore
+
+# Ignore documentation files generated during checks
+.Rcheck/
+
+# Ignore personal configuration files
+.Renviron
+.Rprofile
+
+# Ignore cached files from R Markdown
+*_cache/
+*_files/
+
+# Ignore logs and temporary session files
+*.log
+*.tmp
